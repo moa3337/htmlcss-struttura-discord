@@ -13,7 +13,7 @@
 }
 
 nav{
-    width: 70%;
+    width: 80%;
     height: 35px;
     display: flex;
     background-color: orange;
@@ -38,6 +38,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: solid white;
     background-color: rgb(20, 20, 113);
 }
 
@@ -48,11 +49,11 @@ nav{
     border-style: dashed;
 }
 
-#white{
+.white{
     background-color: white;
 }
 
-#grey{
+.grey{
     background-color: lightgray;
 }
 
@@ -82,5 +83,45 @@ nav{
     height: 85%;
     border-style: dashed;
     background-color: green;
+}
+
+.container.last{
+    background-color: rgb(43, 40, 40);
+}
+
+#pink{
+    background-color: rgb(245, 116, 137);
+}
+
+.multiple-box{
+    width: 12.5%;
+    height: 85%;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgb(43, 233, 224);
+}
+
+.credentials{
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(43, 40, 40);
+}
+
+#box-credentials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 215, 190);
+
+}
+
+.logo-button{
+    width: 8%;
+    height: 65%;
+    text-align: center;
+    border-style: dashed;
+    background-color: rgb(245, 116, 137);
 }
 
