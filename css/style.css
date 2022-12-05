@@ -5,39 +5,82 @@
 }
 
 .title{
-    height: 70px;
+    height: 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: lightskyblue;
 }
 
 nav{
-    display: flex;
     width: 70%;
-    height: 40px;
-    background-color: yellow;
+    height: 35px;
+    display: flex;
+    background-color: orange;
 }
 
 .foto{
     width: 20%;
-    height: 100%;
+    padding: 5px;
     border-style: dashed;
 
 }
 
 .mylink{
-    border-style: dashed;
     width: 60%;
-    height: 100%;
+    padding: 5px;
     text-align: center;
+    border-style: dashed;
 }
 
-.first-main{
+.container{
     height: 350px;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 113);
 }
 
+.purple-box{
+    width: 60%;
+    height: 85%;
+    background-color: rgb(178, 115, 182);
+    border-style: dashed;
+}
 
+#white{
+    background-color: white;
+}
 
+#grey{
+    background-color: lightgray;
+}
+
+.big-box{
+    width: 50%;
+    height: 85%;
+    border-style: dashed;
+    background-color: lightskyblue;
+}
+
+.little-box{
+    width: 30%;
+    height: 85%;
+    border-style: dashed;
+    background-color: lightpink;
+}
+
+.last-box{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-box{
+    width: 80%;
+    height: 85%;
+    border-style: dashed;
+    background-color: green;
+}
 
