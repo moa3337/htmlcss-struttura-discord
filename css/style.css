@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+nav{
+    display: flex;
+    width: 70%;
+    height: 40px;
+    background-color: yellow;
+}
+
+.foto{
+    width: 20%;
+    height: 100%;
+    border-style: dashed;
+
+}
+
+.mylink{
+    border-style: dashed;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.first-main{
+    height: 350px;
+    background-color: blue;
+}
+
+
+
+
